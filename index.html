@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+   <link rel="stylesheet" href="style.css">
+   <title>Login or SignUp To Continue</title>
+</head>
+
+<body>
+   <div class="container" id="container">
+      <!-- SignUp  -->
+      <div class="form-container sign-up">
+         <form>
+            <h1>Create an Account</h1>
+            <div class="social-icons">
+               <a href="#" class="icon">
+                  <i class="ri-google-fill"></i>
+               </a>
+               <a href="" class="icon"><i class="ri-facebook-fill"></i></a>
+               <a href="" class="icon"><i class="ri-github-fill"></i></a>
+            </div>
+            <span>or use your email to create an account</span>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <button>Sign Up</button>
+         </form>
+      </div>
+
+      <!-- Login  -->
+      <div class="form-container log-in">
+         <form>
+            <h1>Log In</h1>
+            <div class="social-icons">
+               <a href="#" class="icon">
+                  <i class="ri-google-fill"></i>
+               </a>
+               <a href="" class="icon"><i class="ri-facebook-fill"></i></a>
+               <a href="" class="icon"><i class="ri-github-fill"></i></a>
+
+            </div>
+            <span>or use your email and password to login</span>
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <a href="#">Forgot Your Password?</a>
+            <button>Log In</button>
+         </form>
+      </div>
+
+      <!-- Toggel Contiainer -->
+
+      <div class="toggle-container">
+         <div class="toggle">
+            <div class="toggle-panel toggle-left">
+               <h1>Welcome Back!</h1>
+               <p>Enter your personal details to login to your account</p>
+               <button class="hidden" id="login">Log In</button>
+            </div>
+            <div class="toggle-panel toggle-right">
+               <h1>Register an Account!</h1>
+               <p>Register with the neccesary info to create a new account</p>
+               <button class="hidden" id="sign-up">Sign Up</button>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <script src="script.js"></script>
+</body>
+
+</html>
